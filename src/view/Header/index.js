@@ -48,10 +48,6 @@ routes.push({
     text: 'Skills',
 });
 routes.push({
-    to: '/scholarship',
-    text: 'Scholarship',
-})
-routes.push({
     to: '/experience',
     text: 'Experience',
 })

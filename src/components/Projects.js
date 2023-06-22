@@ -2,9 +2,10 @@ import React from "react";
 
 const Projects = () => {
     return (
-        <footer>
-            <p>hi Projects</p>
-        </footer>   
+        <>
+            <a href="">Technical test 99minutos</a>
+
+        </>   
     )
 };
 
