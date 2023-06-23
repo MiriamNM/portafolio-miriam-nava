@@ -2,17 +2,17 @@ import React from "react";
 
 const AboutMe = () => {
     return (
-        <>
+        <div class="px-20">
             <p>
-                Soy fullstack developer, bióloga y yoguini. 
-                <br/>
-                Cuento con 2 y medio años de experiencia como fullstack en JS, teniendo la meta de ser arquitecta de software.
-                <br/>
-                Actualmente tengo conocimento en Node.js, Express, MySQL, SQL, tablePlus, Next.js, React, JavaScript, Python, HTML, CSS, SASS, MongoDB, MongoDB Atlas, Mongoose, Firebase, figma, jira, gitHub, Agile methodologies SCRUM. 
-                <br/>
-                Soy líder y una mujer valiente ante la incertidumbre, con ganas de seguir aprendiendo, sin límites de fronteras mentales y territoriales.
+                ⭐️ As a Fullstack Developer with a background in biology and yoga, I bring a unique perspective to software development. 
+                <br/><br/>
+                ⭐️ With 2 years of experience in JavaScript, I'm passionate about creating efficient and elegant software solutions. My current goal is to become a Software Architect.
+                <br/><br/>
+                ⭐️ My technical skills include expertise in Node.js, Express, MySQL, SQL, TablePlus, Next.js, React, JavaScript, Python, HTML, CSS, SASS, MongoDB, MongoDB Atlas, Mongoose, Firebase, Figma, Jira, GitHub, and Agile methodologies such as SCRUM.
+                <br/><br/>
+                ⭐️ As a leader and a confident individual, I thrive in situations of uncertainty and I'm always eager to learn. I believe in pushing beyond mental and territorial limits to deliver innovative solutions that benefit society. If you're looking for a dedicated and adaptable developer who brings a unique perspective to the table, let's connect!
             </p>
-        </>   
+        </div>   
     )
 };
 

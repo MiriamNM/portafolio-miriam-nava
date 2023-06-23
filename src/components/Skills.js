@@ -4,7 +4,7 @@ import lifeSkills from "../assets/lifeSkills.png"
 
 const Skills = () => {
     return (
-        <div>
+        <div class="pl-40">
             <img src={skills} alt='skills'/>
             <img src={lifeSkills} alt='skills'/>
             {/* <h3>Life skills</h3>
