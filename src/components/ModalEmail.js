@@ -15,7 +15,7 @@ const AboutMe = ({isModalOpen, handleOk, handleCancel}) => {
                 <label>Email</label>
                 <input type="email" name="email" />
                 <label>Message</label>
-                <textarea name="messages" />
+                <textarea name="message" />
                 <input type="submit" value="Send" />
             </form>
             </Modal>
