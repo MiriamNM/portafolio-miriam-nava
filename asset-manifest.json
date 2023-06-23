@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portafolio-miriam-nava/static/css/main.f690078f.css",
-    "main.js": "/portafolio-miriam-nava/static/js/main.6d7107aa.js",
+    "main.js": "/portafolio-miriam-nava/static/js/main.dd1c1139.js",
     "static/js/787.5bed713a.chunk.js": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js",
     "static/media/lifeSkills.png": "/portafolio-miriam-nava/static/media/lifeSkills.a99726832b0e29f62cda.png",
     "static/media/skills.png": "/portafolio-miriam-nava/static/media/skills.5cb90007f24458b10211.png",
     "index.html": "/portafolio-miriam-nava/index.html",
     "main.f690078f.css.map": "/portafolio-miriam-nava/static/css/main.f690078f.css.map",
-    "main.6d7107aa.js.map": "/portafolio-miriam-nava/static/js/main.6d7107aa.js.map",
+    "main.dd1c1139.js.map": "/portafolio-miriam-nava/static/js/main.dd1c1139.js.map",
     "787.5bed713a.chunk.js.map": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f690078f.css",
-    "static/js/main.6d7107aa.js"
+    "static/js/main.dd1c1139.js"
   ]
 }
