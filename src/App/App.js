@@ -1,8 +1,8 @@
-import { HashRouter} from 'react-router-dom';
-import Header from '../view/Header/index.js';
-import Main from '../view/Main/index.js';
-import Footer from '../view/Footer/index.js';
-import './App.css';
+import { HashRouter } from "react-router-dom";
+import Header from "../view/Header/index.js";
+import Main from "../view/Main/index.js";
+import Footer from "../view/Footer/index.js";
+import "./App.css";
 // import AboutMe from '../components/AboutMe.js';
 // import Home from '../components/Home.js';
 // import Skills from '../components/Skills.js';
@@ -14,8 +14,8 @@ function App() {
   return (
     <div class="flex flex-col h-screen justify-between">
       <HashRouter>
-          <Header />
-          {/*
+        <Header />
+        {/*
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<AboutMe />} />
             <Route path="/skills" element={<Skills />} />
@@ -23,7 +23,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="*" element={<p>Not found</p>} /> */}
-          <Main />
+        <Main />
       </HashRouter>
       <Footer />
     </div>
