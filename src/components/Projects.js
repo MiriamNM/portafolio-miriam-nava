@@ -13,8 +13,8 @@ const Projects = () => {
         class="bg-pink-555 rounded-full py-2 mx-20 my-5"
         style={{ color: "white" }}
       >
-        <a href="https://github.com/MiriamNM/99minutos-frontend-interview-test-2/tree/JR-miriamnava/space-land">
-          ⭐️ Technical test 99minutos
+        <a href="https://github.com/MiriamNM/portafolio-miriam-nava/tree/main">
+          ⭐️ Miriam´s profile
         </a>
       </button>
       <button
