@@ -1,8 +1,15 @@
 import React from "react";
+import me from "../assets/me.jpg";
 
 const AboutMe = () => {
   return (
-    <div class="px-20">
+    <div class="hero container max-w-screen-lg mx-auto text-center p-10">
+      <div class="">
+        <img src={me} class="mx-auto" alt={me} width="287" />
+      </div>
+      <br />
+      <br />
+      <br />
       <p>
         ⭐️ As a Fullstack Developer with a background in biology and yoga, I
         bring a unique perspective to software development.
