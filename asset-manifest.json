@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/portafolio-miriam-nava/static/css/main.f690078f.css",
-    "main.js": "/portafolio-miriam-nava/static/js/main.dd1c1139.js",
+    "main.css": "/portafolio-miriam-nava/static/css/main.2cb9d783.css",
+    "main.js": "/portafolio-miriam-nava/static/js/main.1fb28156.js",
     "static/js/787.5bed713a.chunk.js": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js",
-    "static/media/lifeSkills.png": "/portafolio-miriam-nava/static/media/lifeSkills.a99726832b0e29f62cda.png",
-    "static/media/skills.png": "/portafolio-miriam-nava/static/media/skills.5cb90007f24458b10211.png",
+    "static/media/me.jpg": "/portafolio-miriam-nava/static/media/me.4a6fa3bb913fea6ea1c2.jpg",
+    "static/media/React.jpg": "/portafolio-miriam-nava/static/media/React.f0fae68c58cc6bc3bf2c.jpg",
+    "static/media/Node.jpg": "/portafolio-miriam-nava/static/media/Node.c72a8d1b4baab25040b9.jpg",
+    "static/media/Express.jpg": "/portafolio-miriam-nava/static/media/Express.c00cc01e9ab5073f2e6d.jpg",
+    "static/media/GitHub.jpg": "/portafolio-miriam-nava/static/media/GitHub.0d7ce0c94fa9c24114b0.jpg",
+    "static/media/Sass.jpg": "/portafolio-miriam-nava/static/media/Sass.95acccc570195d29c414.jpg",
+    "static/media/Firebase.jpg": "/portafolio-miriam-nava/static/media/Firebase.88ae624c2ed696b51432.jpg",
+    "static/media/JavaScript.jpg": "/portafolio-miriam-nava/static/media/JavaScript.e585f064d029d94ea260.jpg",
+    "static/media/Figma.jpg": "/portafolio-miriam-nava/static/media/Figma.5295d69c3ae13530d8ee.jpg",
+    "static/media/Docker.jpg": "/portafolio-miriam-nava/static/media/Docker.00e365999360ecc3e68d.jpg",
+    "static/media/CSS.jpg": "/portafolio-miriam-nava/static/media/CSS.0a0e969c8e8c402f26a7.jpg",
+    "static/media/MySQL.jpg": "/portafolio-miriam-nava/static/media/MySQL.b94917ad132584223e07.jpg",
+    "static/media/HTML5.jpg": "/portafolio-miriam-nava/static/media/HTML5.4ad72c5af4fb43866bec.jpg",
+    "static/media/Python.jpg": "/portafolio-miriam-nava/static/media/Python.b6da9c5ac2a9c602ce5e.jpg",
+    "static/media/MongoDB.jpg": "/portafolio-miriam-nava/static/media/MongoDB.4b87b3f3314038ac8bbc.jpg",
+    "static/media/Jira.jpg": "/portafolio-miriam-nava/static/media/Jira.742e7a952dbee5ba7dfb.jpg",
     "index.html": "/portafolio-miriam-nava/index.html",
-    "main.f690078f.css.map": "/portafolio-miriam-nava/static/css/main.f690078f.css.map",
-    "main.dd1c1139.js.map": "/portafolio-miriam-nava/static/js/main.dd1c1139.js.map",
+    "main.2cb9d783.css.map": "/portafolio-miriam-nava/static/css/main.2cb9d783.css.map",
+    "main.1fb28156.js.map": "/portafolio-miriam-nava/static/js/main.1fb28156.js.map",
     "787.5bed713a.chunk.js.map": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f690078f.css",
-    "static/js/main.dd1c1139.js"
+    "static/css/main.2cb9d783.css",
+    "static/js/main.1fb28156.js"
   ]
 }
