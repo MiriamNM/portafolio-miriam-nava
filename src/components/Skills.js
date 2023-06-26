@@ -7,6 +7,7 @@ const Skills = () => {
       <h3 class="font-bold text-xl" style={{ color: "#BB1970" }}>
         Skills and software
       </h3>
+      <br />
       <Carousel />
       <br />
       <br />
@@ -14,6 +15,7 @@ const Skills = () => {
       <h3 class="font-bold text-xl" style={{ color: "#BB1970" }}>
         Life skills
       </h3>
+      <br />
       <p>⭐️ Problem solving</p>
       <p>⭐️ Critical thinking</p>
       <p>⭐️ Collaboration and teamwork</p>
