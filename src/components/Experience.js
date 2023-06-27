@@ -13,9 +13,6 @@ const Experience = () => {
       </p>
       <br />
       <h3 class="font-bold" style={{ color: "#BB1970" }}>
-        Nowports
-      </h3>
-      <h3 class="font-bold" style={{ color: "#BB1970" }}>
         Scholarship
       </h3>
       <p>
