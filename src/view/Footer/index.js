@@ -18,6 +18,19 @@ const Footer = () => {
       >
         Email: miriamnavamucino@gmail.com
       </button>
+      <button
+        type="text"
+        block
+        style={{
+          color: "white",
+          "font-family": "Azeret Mono",
+          "font-weight": "bold",
+        }}
+      >
+        <a href="https://www.linkedin.com/in/miriam-nava-muci%C3%B1o/">
+          LinkedIn
+        </a>
+      </button>
     </footer>
   );
 };

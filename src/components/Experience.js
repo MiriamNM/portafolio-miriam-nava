@@ -4,6 +4,18 @@ const Experience = () => {
   return (
     <div class="px-10">
       <h3 class="font-bold" style={{ color: "#BB1970" }}>
+        Languages
+      </h3>
+      <p>
+        Spanish level Native
+        <br />
+        Inglés level A2 IELTS
+      </p>
+      <br />
+      <h3 class="font-bold" style={{ color: "#BB1970" }}>
+        Nowports
+      </h3>
+      <h3 class="font-bold" style={{ color: "#BB1970" }}>
         Scholarship
       </h3>
       <p>
