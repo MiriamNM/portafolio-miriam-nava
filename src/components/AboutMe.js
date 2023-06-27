@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div class="hero container max-w-screen-lg mx-auto text-center p-10">
       <div class="">
-        <img src={me} class="mx-auto" alt={me} width="287" />
+        <img src={me} class="mx-auto" alt={me} width="187" />
       </div>
       <br />
       <br />
