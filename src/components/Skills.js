@@ -1,4 +1,5 @@
 import React from "react";
+import { lifeSkillsData } from "../data/LifeSkillsData";
 import Carousel from "./Carousel";
 
 const Skills = () => {
@@ -16,14 +17,9 @@ const Skills = () => {
         Life skills
       </h3>
       <br />
-      <p>⭐️ Problem solving</p>
-      <p>⭐️ Critical thinking</p>
-      <p>⭐️ Collaboration and teamwork</p>
-      <p>⭐️ Professionalism and work ethic</p>
-      <p>⭐️ Initiative and self-direction</p>
-      <p>⭐️ Adaptability and flexibility</p>
-      <p>⭐️ Self-learning</p>
-      <p>⭐️ Planning, organization and time management</p>
+      {lifeSkillsData.map(({ text }) => (
+        <p>{text}</p>
+      ))}
     </div>
   );
 };

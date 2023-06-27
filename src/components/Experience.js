@@ -7,7 +7,6 @@ const Experience = () => {
         Scholarship
       </h3>
       <p>
-        {" "}
         Frontend con React in Platzi 2022
         <br />
         Backend con Node.js in Platzi 2022
