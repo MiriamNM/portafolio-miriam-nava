@@ -19,7 +19,7 @@ const Header = () => {
         <img src={logo} alt="logo" class="w-60" />
       </div>
       <div>
-        <ul class="font-medium flex flex-col md:flex-row md:space-x-10 md:mt-8 pl-10">
+        <ul class="font-medium grid grid-flow-col justify-stretch md:space-x-10 md:mt-8 pl-10">
           {routes.map((route) => {
             return (
               <li>
