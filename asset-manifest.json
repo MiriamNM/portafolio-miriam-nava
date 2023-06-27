@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio-miriam-nava/static/css/main.78e9ec40.css",
-    "main.js": "/portafolio-miriam-nava/static/js/main.8ef31bc9.js",
+    "main.css": "/portafolio-miriam-nava/static/css/main.8bdab6d6.css",
+    "main.js": "/portafolio-miriam-nava/static/js/main.aede8bbf.js",
     "static/js/787.5bed713a.chunk.js": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js",
     "static/media/me.jpg": "/portafolio-miriam-nava/static/media/me.4a6fa3bb913fea6ea1c2.jpg",
     "static/media/React.jpg": "/portafolio-miriam-nava/static/media/React.f0fae68c58cc6bc3bf2c.jpg",
@@ -20,12 +20,12 @@
     "static/media/MongoDB.jpg": "/portafolio-miriam-nava/static/media/MongoDB.4b87b3f3314038ac8bbc.jpg",
     "static/media/Jira.jpg": "/portafolio-miriam-nava/static/media/Jira.742e7a952dbee5ba7dfb.jpg",
     "index.html": "/portafolio-miriam-nava/index.html",
-    "main.78e9ec40.css.map": "/portafolio-miriam-nava/static/css/main.78e9ec40.css.map",
-    "main.8ef31bc9.js.map": "/portafolio-miriam-nava/static/js/main.8ef31bc9.js.map",
+    "main.8bdab6d6.css.map": "/portafolio-miriam-nava/static/css/main.8bdab6d6.css.map",
+    "main.aede8bbf.js.map": "/portafolio-miriam-nava/static/js/main.aede8bbf.js.map",
     "787.5bed713a.chunk.js.map": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e9ec40.css",
-    "static/js/main.8ef31bc9.js"
+    "static/css/main.8bdab6d6.css",
+    "static/js/main.aede8bbf.js"
   ]
 }
