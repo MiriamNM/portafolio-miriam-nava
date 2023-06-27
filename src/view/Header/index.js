@@ -1,18 +1,8 @@
 import React from "react";
-// import { Navigate } from 'react-router-dom';
 import { NavLink } from "react-router-dom";
-// import { profileData } from "../../data/ProfileData";
 import logo from "../../assets/logo.png";
 
 const Header = () => {
-  // const { slug } = useParams();
-
-  // const profilePost = profileData.find( data => data.slug === slug );
-
-  // const returnToBlog = () => {
-  //     navigate('/blog');
-  // };
-
   return (
     <nav class="bg-pink-555 border-gray-200 dark:bg-gray-900 flex">
       <div>
@@ -38,27 +28,6 @@ const Header = () => {
         </ul>
       </div>
     </nav>
-    // <nav class="h-15 bg-pink-555 flex">
-    //   <div>
-    //     <img src={logo} alt="logo" class="w-1/2" />
-    //   </div>
-    //   <div class="flex justify-around">
-    //     {routes.map((route) => {
-    //       return (
-    //         <button class="font-semibold">
-    //           <NavLink
-    //             to={route.to}
-    //             style={({ isActive }) => ({
-    //               color: isActive ? "yellow" : "white",
-    //             })}
-    //           >
-    //             {route.text}
-    //           </NavLink>
-    //         </button>
-    //       );
-    //     })}
-    //   </div>
-    // </nav>
   );
 };
 
