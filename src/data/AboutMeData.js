@@ -1,19 +1,24 @@
 const aboutMeData = [];
 aboutMeData.push({
   aboutme:
-    "⭐️ As a Fullstack Developer with a background in biology and yoga, I bring a unique perspective to software development.",
+    "I'm a fullstack developer based in Mexico, and I'm also a biology and a certified yoga coach.",
 });
 aboutMeData.push({
   aboutme:
-    "⭐️ With 2 years of experience in JavaScript, I'm passionate about creating efficient and elegant software solutions. My current goal is to become a Software Architect.",
+    "I like to create tech solutions that help improve people's lives and also live in the internet world.",
 });
 aboutMeData.push({
   aboutme:
-    "⭐️ My technical skills include expertise in Node.js, Express, MySQL, SQL, TablePlus, Next.js, React, JavaScript, Python, HTML, CSS, SASS, MongoDB, MongoDB Atlas, Mongoose, Firebase, Figma, Jira, GitHub, and Agile methodologies such as SCRUM.",
+    "I have been working for the past 3 years in the IT world and have gained a good amount of experience and valuable knowledge",
 });
 aboutMeData.push({
   aboutme:
-    "⭐️ As a leader and a confident individual, I thrive in situations of uncertainty and I'm always eager to learn. I believe in pushing beyond mental and territorial limits to deliver innovative solutions that benefit society. If you're looking for a dedicated and adaptable developer who brings a unique perspective to the table, let's connect!",
+    "in the projects I have been involved in, as well as in the companies I have had the honor to work for.",
+});
+aboutMeData.push({
+  aboutme: "I am interested in becoming a software architect along the way.",
 });
 
 export { aboutMeData };
+
+// I am interested in becoming a software architect along the way.

@@ -8,9 +8,7 @@ import {
 const Experience = () => {
   return (
     <div class="px-10">
-      <h3 class="font-bold" style={{ color: "#BB1970" }}>
-        Languages
-      </h3>
+      <h3 class="font-bold text-pink1">Languages</h3>
       {languagesData.map(({ language }) => {
         return (
           <>
@@ -20,9 +18,7 @@ const Experience = () => {
       })}
 
       <br />
-      <h3 class="font-bold" style={{ color: "#BB1970" }}>
-        Scholarship
-      </h3>
+      <h3 class="font-bold text-pink1">Scholarship</h3>
       {scholarshipData.map(({ school }) => {
         return (
           <>
@@ -34,9 +30,7 @@ const Experience = () => {
       {jobsData.map(({ job, position, workingtime, description }) => {
         return (
           <>
-            <h3 class="font-bold" style={{ color: "#BB1970" }}>
-              {job}
-            </h3>
+            <h3 class="font-bold text-pink1">{job}</h3>
             <p class="font-thin text-xs">{position}</p>
             <p class="font-thin text-xs">{workingtime}</p>
             <p>{description}</p>

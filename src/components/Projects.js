@@ -8,8 +8,7 @@ const Projects = () => {
         return (
           <>
             <button
-              class="bg-pink-555 rounded-full py-2 mx-20 my-5"
-              style={{ color: "white" }}
+              class="bg-pink-1 rounded-full py-2 mx-20 my-5 text-white"
               key={title}
             >
               <a href={url}>⭐️ {title}</a>

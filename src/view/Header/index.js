@@ -1,32 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Button } from "antd";
-import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
-    <nav class="bg-pink-555 border-gray-200 dark:bg-gray-900 flex">
+    <nav class="flex flex-row-reverse pr-20 mr-20">
       <div>
-        <img src={logo} alt="logo" class="w-60" />
-      </div>
-      <div>
-        <ul class="font-medium grid grid-flow-col justify-stretch md:space-x-10 md:mt-8 pl-10">
+        <ul class="font-medium grid grid-flow-col justify-stretch md:space-x-5 md:mt-8 pl-10">
           {routes.map((route) => {
             return (
               <li>
-                <Button
-                  type="primary"
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
+                <button type="primary" class="text-lg">
                   <NavLink
                     to={route.to}
                     style={({ isActive }) => ({
-                      color: isActive ? "yellow" : "white",
+                      color: isActive ? "#E845A7" : "#1A1A1A",
                     })}
                   >
                     {route.text}
                   </NavLink>
-                </Button>
+                </button>
               </li>
             );
           })}
