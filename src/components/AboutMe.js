@@ -1,27 +1,12 @@
 import React from "react";
-import { aboutMeData } from "../data/AboutMeData";
+import ButtonsAboutMe from "./ButtonsAboutMe";
+import TextAboutMe from "./TextAboutMe";
 
 const AboutMe = () => {
   return (
-    <div class="px-40 py-20 my-20">
-      <div class="">
-        <p class="text-lg">Hey, I'm</p>
-        <br />
-        <span>
-          <h1 class="font-poppins text-8xl from-pink-2 via-yellow to-pink-3 bg-gradient-to-r bg-clip-text text-transparent">
-            Miriam Nava
-          </h1>
-        </span>
-      </div>
-      <br />
-      <br />
-      {aboutMeData.map(({ aboutme }) => {
-        return (
-          <>
-            <p class="text-lg">{aboutme}</p>
-          </>
-        );
-      })}
+    <div className="px-10 py-10 my-20 md:px-20 lg:px-40 text-dark">
+      <TextAboutMe />
+      <ButtonsAboutMe />
     </div>
   );
 };

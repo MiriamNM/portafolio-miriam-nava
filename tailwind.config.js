@@ -13,9 +13,22 @@ module.exports = {
         2: "#E845A7",
         3: "#DD5789",
       },
-      yellow: "#FFD233",
+      yellow: {
+        1: "#FFD233",
+        2: "#FFD233",
+      },
+      blue: {
+        1: "#5990EE",
+        2: "#10D7E2",
+        3: "#5990EE",
+      },
       white: "#ffffff",
+      dark: "#1A1A1A",
+      purple: "#9358F7",
+      gray: "#636F9A",
+      lila: "#C27ADD",
     },
   },
   plugins: [],
+  purge: ["./src/**/*.{html,js,jsx,ts,tsx}"],
 };

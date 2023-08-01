@@ -1,43 +1,42 @@
 import React from "react";
-import {
-  languagesData,
-  scholarshipData,
-  jobsData,
-} from "../data/ExperienceData";
+import JobExperience from "./JobExperience.js";
+import SchoolExperience from "./SchoolExperience.js";
 
 const Experience = () => {
   return (
-    <div class="px-10">
-      <h3 class="font-bold text-pink1">Languages</h3>
-      {languagesData.map(({ language }) => {
-        return (
-          <>
-            <p>{language}</p>
-          </>
-        );
-      })}
-
+    <div className="px-10 py-10 my-20 md:px-20 lg:px-40 text-dark">
+      <h2
+        class=" font-bold text-3xl"
+        style={{
+          backgroundClip: "text",
+          backgroundImage:
+            "linear-gradient(to right, #C27ADD, #FFD233, #5990EE)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
+        EXPERIENCE
+      </h2>
       <br />
-      <h3 class="font-bold text-pink1">Scholarship</h3>
-      {scholarshipData.map(({ school }) => {
-        return (
-          <>
-            <p>{school}</p>
-          </>
-        );
-      })}
       <br />
-      {jobsData.map(({ job, position, workingtime, description }) => {
-        return (
-          <>
-            <h3 class="font-bold text-pink1">{job}</h3>
-            <p class="font-thin text-xs">{position}</p>
-            <p class="font-thin text-xs">{workingtime}</p>
-            <p>{description}</p>
-            <br />
-          </>
-        );
-      })}
+      <JobExperience />
+      <br />
+      <br />
+      <h3
+        class=" font-bold text-xl"
+        style={{
+          backgroundClip: "text",
+          backgroundImage:
+            "linear-gradient(to right, #C27ADD, #FFD233, #5990EE)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
+        SCHOLARSHIP
+      </h3>
+      <br />
+      <SchoolExperience />
+      <br />
     </div>
   );
 };

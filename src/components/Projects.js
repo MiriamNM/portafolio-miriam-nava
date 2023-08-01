@@ -3,7 +3,7 @@ import { projectsData } from "../data/ProjectsData";
 
 const Projects = () => {
   return (
-    <div class="px-10 flex flex-col">
+    <div class="px-10 flex flex-col text-dark">
       {projectsData.map(({ title, url }) => {
         return (
           <>

@@ -17,8 +17,8 @@ const Main = () => {
         <Route path="*" element={<p>Not found</p>} />
       </Routes> */}
       <AboutMe />
-      <Skills />
       <Experience />
+      <Skills />
       <Projects />
     </div>
   );
