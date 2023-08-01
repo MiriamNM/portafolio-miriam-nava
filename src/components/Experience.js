@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className="px-10 py-10 my-20 md:px-20 lg:px-40 text-dark">
       <h2
-        class=" font-bold text-3xl"
+        className="font-bold text-3xl"
         style={{
           backgroundClip: "text",
           backgroundImage:
@@ -23,7 +23,7 @@ const Experience = () => {
       <br />
       <br />
       <h3
-        class=" font-bold text-xl"
+        className="font-bold text-xl"
         style={{
           backgroundClip: "text",
           backgroundImage:
