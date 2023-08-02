@@ -1,25 +1,29 @@
 import React from "react";
-import { lifeSkillsData } from "../data/LifeSkillsData";
-import Carousel from "./Carousel";
+import ButtonsSkills from "./ButtonsSkills";
+import ButtonsSoftSkills from "./ButtonsSoftSkills";
 
 const Skills = () => {
   return (
-    <div class="pl-10">
-      <h3 class="font-bold text-xl" style={{ color: "#BB1970" }}>
-        Skills and software
+    <div class="px-10 py-10 my-20 md:px-20 lg:px-40 pl-10">
+      <h3
+        className="font-bold text-3xl"
+        style={{
+          backgroundClip: "text",
+          backgroundImage:
+            "linear-gradient(to right, #C27ADD, #FFD233, #5990EE)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
+        SKILLS
       </h3>
       <br />
-      <Carousel />
+      <h4 className="text-gray">Hard skills</h4>
+      <ButtonsSkills />
       <br />
       <br />
-      <br />
-      <h3 class="font-bold text-xl" style={{ color: "#BB1970" }}>
-        Life skills
-      </h3>
-      <br />
-      {lifeSkillsData.map(({ text }) => (
-        <p>{text}</p>
-      ))}
+      <h4 className="text-gray">Soft skills</h4>
+      <ButtonsSoftSkills />
     </div>
   );
 };

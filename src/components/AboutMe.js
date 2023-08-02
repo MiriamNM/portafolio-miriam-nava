@@ -1,23 +1,12 @@
 import React from "react";
-import me from "../assets/me.jpg";
-import { aboutMeData } from "../data/AboutMeData";
+import ButtonsAboutMe from "./ButtonsAboutMe";
+import TextAboutMe from "./TextAboutMe";
 
 const AboutMe = () => {
   return (
-    <div class="p-10">
-      <div class="">
-        <img src={me} class="mx-auto" alt={me} width="187" />
-      </div>
-      <br />
-      <br />
-      {aboutMeData.map(({ aboutme }) => {
-        return (
-          <>
-            <p>{aboutme}</p>
-            <br />
-          </>
-        );
-      })}
+    <div className="px-10 py-10 my-20 md:px-20 lg:px-40 text-dark">
+      <TextAboutMe />
+      <ButtonsAboutMe />
     </div>
   );
 };
