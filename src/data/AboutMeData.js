@@ -20,5 +20,3 @@ aboutMeData.push({
 });
 
 export { aboutMeData };
-
-// I am interested in becoming a software architect along the way.

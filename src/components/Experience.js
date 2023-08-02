@@ -23,7 +23,7 @@ const Experience = () => {
       <br />
       <br />
       <h3
-        className="font-bold text-xl"
+        className="font-bold text-3xl"
         style={{
           backgroundClip: "text",
           backgroundImage:
