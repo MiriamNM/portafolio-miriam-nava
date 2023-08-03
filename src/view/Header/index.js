@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import routes from "../../data/routers";
 
 const Header = () => {
@@ -10,15 +10,9 @@ const Header = () => {
           {routes.map((route) => {
             return (
               <li key={route.to}>
-                <NavLink
-                  to={route.to}
-                  className="text-lg pr-15"
-                  style={({ isActive }) => ({
-                    color: isActive ? "#E845A7" : "#1A1A1A",
-                  })}
-                >
+                <Link to={route.to} className="text-lg pr-15 focus:text-pink-1">
                   {route.text}
-                </NavLink>
+                </Link>
               </li>
             );
           })}

@@ -1,10 +1,14 @@
+// import React from "react";
 import VectorGitHub from "../assets/VectorGitHub.png";
 import VectorLinkedin from "../assets/VectorLinkedin.png";
 import VectorMail from "../assets/VectorMail.png";
 
+const email = "miriamnavamucino@gmail.com";
+const subject = "Email from Portafolio";
+
 const AboutMeButtons = [];
 AboutMeButtons.push({
-  url: "",
+  url: `mailto:${email}?subject=${encodeURIComponent(subject)}`,
   text: "Send an email",
   img: VectorMail,
 });
