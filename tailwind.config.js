@@ -30,6 +30,10 @@ module.exports = {
       gray: "#636F9A",
       lila: "#C27ADD",
     },
+    screens: {
+      md: { max: "767px" },
+      sm: { max: "639px" },
+    },
   },
   plugins: [],
   purge: ["./src/**/*.{html,js,jsx,ts,tsx}"],

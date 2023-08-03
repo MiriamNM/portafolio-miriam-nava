@@ -4,7 +4,7 @@ import { SkillsImagesData } from "../data/SkillsImagesData";
 const ButtonsSkills = () => {
   return (
     <div class="flex w-full px-5">
-      <ul class="mt-10 font-medium grid grid-cols-8 gap-2">
+      <ul class="mt-10 font-medium grid grid-cols-8 gap-2 md:grid-cols-2 sm:grid-cols-2">
         {SkillsImagesData.map((image) => (
           <li key={image.text} className="flex flex-wrap justify-center">
             <div className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-to-r from-purple via-blue-1 to-blue-2 border-1">

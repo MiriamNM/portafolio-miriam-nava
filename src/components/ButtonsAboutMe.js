@@ -4,8 +4,8 @@ import AboutMeButtons from "../data/AboutMeButtons";
 
 const ButtonsAboutMe = () => {
   return (
-    <div className="flex flex-row pt-20">
-      <ul className="mt-10 font-medium grid grid-cols-3 gap-4">
+    <div className="flex flex-row pt-20 sm:pt-5 md:pt-5">
+      <ul className="mt-10 font-medium grid grid-cols-3 gap-4  sm:grid-cols-1 md:grid-cols-1 sm:mt-5 md:mt-5">
         {AboutMeButtons.map((button) => (
           <li key={button.text} className="flex">
             <button className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-to-r from-purple via-blue-1 to-blue-2 border-1">

@@ -8,7 +8,7 @@ const TextAboutMe = () => {
         <p className="text-lg">Hey, I'm</p>
         <br />
         <h1
-          className="font-poppins text-6xl md:text-7xl lg:text-8xl"
+          className="font-poppins text-6xl md:text-7xl"
           style={{
             backgroundClip: "text",
             backgroundImage:

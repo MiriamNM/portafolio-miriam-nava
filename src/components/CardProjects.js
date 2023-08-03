@@ -5,7 +5,7 @@ import github from "../assets/GitHub.png";
 
 const CardProjects = () => {
   return (
-    <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    <div className="grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
       {projectsData.map(({ id, title, url, stack, image }) => (
         <Card
           key={id}
