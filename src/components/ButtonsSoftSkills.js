@@ -4,7 +4,7 @@ import { lifeSkillsData } from "../data/LifeSkillsData";
 const ButtonsSoftSkills = () => {
   return (
     <div class="flex justify-center w-full px-5">
-      <ul class="mt-10 font-medium grid grid-cols-2 gap-4">
+      <ul class="mt-10 font-medium grid grid-cols-2 gap-4 md:grid-cols-1 sm:grid-cols-1">
         {lifeSkillsData.map((sofkS) => (
           <li key={sofkS.text} className="flex flex-wrap justify-center">
             <div className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-to-r from-pink-1 via-yellow-1 to-pink-2 border-1">

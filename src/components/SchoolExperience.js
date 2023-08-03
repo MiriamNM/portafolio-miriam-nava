@@ -14,7 +14,7 @@ const SchoolExperience = () => {
       <Radio.Group
         value={selectedSchool}
         onChange={handleJobChange}
-        className="grid grid-cols-6"
+        className="grid grid-cols-6 md:grid-cols-2 sm:grid-cols-2"
       >
         {scholarshipData.map(({ name }, index) => (
           <Radio.Button
