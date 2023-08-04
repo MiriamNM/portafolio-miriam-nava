@@ -2,7 +2,26 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        "gradient-pink-yellow":
+          "linear-gradient(90deg, rgba(232,69,167,1) 5%, rgba(255,210,51,1) 53%, rgba(221,87,137,1) 100%)",
+        "gradient-purple-pink":
+          "linear-gradient(90deg, rgba(105,100,222,1) 5%, rgba(252,166,233,1) 100%)",
+        "gradient-wine-purple":
+          "linear-gradient(90deg, rgba(210,64,116,1) 5%, rgba(101,24,180,1) 100%)",
+        "gradient-blue-purple":
+          "linear-gradient(90deg, rgba(147,88,247,1) 5%, rgba(16,215,226,1) 100%)",
+        "gradient-lila-blond":
+          "linear-gradient(90deg, rgba(194,122,221,1) 5%, rgba(229,172,124,1) 100%)",
+      }),
+      backgroundClip: {
+        text: "text",
+      },
+      textColor: (theme) => ({
+        transparent: "transparent",
+      }),
+    },
     fontFamily: {
       inter: ["Inter"],
       poppins: ["Poppins"],
@@ -35,6 +54,6 @@ module.exports = {
       sm: { max: "639px" },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-gradients")],
   purge: ["./src/**/*.{html,js,jsx,ts,tsx}"],
 };
