@@ -3,18 +3,11 @@ import CardProjects from "./CardProjects";
 
 const Projects = () => {
   return (
-    <div className="px-20 py-10 mx-20 sm:px-1 sm:py-2 md:px-1 md:py-2 text-dark">
-      <h2
-        className="font-bold text-3xl"
-        style={{
-          backgroundClip: "text",
-          backgroundImage:
-            "linear-gradient(to right, #C27ADD, #FFD233, #5990EE)",
-          WebkitBackgroundClip: "text",
-          color: "transparent",
-        }}
-      >
-        PROJECTS
+    <div className="px-40 mx-0 py-30 my-0 sm:px-0 sm:py-3 md:px-0 md:py-3 text-dark">
+      <h2>
+        <span className="font-bold text-3xl bg-gradient-lila-blond text-transparent bg-clip-text">
+          PROJECTS
+        </span>
       </h2>
       <CardProjects />
     </div>

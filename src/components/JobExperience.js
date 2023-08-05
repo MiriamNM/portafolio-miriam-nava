@@ -14,7 +14,7 @@ const JobExperience = () => {
       <Radio.Group
         value={selectedJob}
         onChange={handleJobChange}
-        className="grid grid-cols-6 md:grid-cols-2 sm:grid-cols-2"
+        className="grid grid-cols-7 md:grid-cols-2 sm:grid-cols-2"
       >
         {jobsData.map(({ job }, index) => (
           <Radio.Button
@@ -47,9 +47,11 @@ const JobExperience = () => {
               }) =>
                 selectedJob === job ? (
                   <div key={job}>
-                    <p className=" text-dark flex justify-end">{workingtime}</p>
+                    <p className=" text-dark flex justify-end md:justify-start">
+                      {workingtime}
+                    </p>
                     <h3 className="text-base">{position}</h3>
-                    <p className="font-thin text-gray text-sm">{city}</p>
+                    <p className="font-normal text-gray">{city}</p>
                     <br />
                     <p className="text-dark">{jobObject}</p>
                     <p className="text-dark">{description1}</p>
