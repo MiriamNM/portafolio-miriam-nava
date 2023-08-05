@@ -42,7 +42,7 @@ const SchoolExperience = () => {
                 </div>
               ) : null
             )
-          : setSelectedSchool("Frontend con React")}
+          : setSelectedSchool("Frontend React")}
       </Space>
     </>
   );

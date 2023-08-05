@@ -8,12 +8,17 @@ languagesData.push({
 
 const scholarshipData = [];
 scholarshipData.push({
-  name: "Frontend con React",
+  name: "Frontend React",
   school: "Platzi",
   date: "2022",
 });
 scholarshipData.push({
-  name: "Backend con Node.js",
+  name: "Frontend",
+  school: "Laboratoria",
+  date: "2020-2021",
+});
+scholarshipData.push({
+  name: "Backend Node",
   school: "Platzi",
   date: "2022",
 });
@@ -21,11 +26,6 @@ scholarshipData.push({
   name: "AWS",
   school: "Platzi",
   date: "2022",
-});
-scholarshipData.push({
-  name: "Frontend developer",
-  school: "Laboratoria",
-  date: "2020-2021",
 });
 scholarshipData.push({
   name: "Data Analyst",

@@ -4,25 +4,18 @@ import ButtonsSoftSkills from "./ButtonsSoftSkills";
 
 const Skills = () => {
   return (
-    <div className="px-10 py-10 my-20 sm:px-10 sm:py-2 md:px-10 md:py-2 text-dark">
-      <h3
-        className="font-bold text-3xl"
-        style={{
-          backgroundClip: "text",
-          backgroundImage:
-            "linear-gradient(to right, #C27ADD, #FFD233, #5990EE)",
-          WebkitBackgroundClip: "text",
-          color: "transparent",
-        }}
-      >
-        SKILLS
+    <div className="px-40 mx-0 py-30 my-0 sm:px-10 sm:py-2 md:px-10 md:py-2 text-dark">
+      <h3>
+        <span className="font-bold text-3xl bg-gradient-lila-blond text-transparent bg-clip-text">
+          SKILLS
+        </span>
       </h3>
       <br />
-      <h4 className="text-gray">Hard skills</h4>
+      <h4 className="text-gray font-medium">Hard skills</h4>
       <ButtonsSkills />
       <br />
       <br />
-      <h4 className="text-gray">Soft skills</h4>
+      <h4 className="text-gray font-medium">Soft skills</h4>
       <ButtonsSoftSkills />
     </div>
   );

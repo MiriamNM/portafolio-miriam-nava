@@ -7,22 +7,15 @@ const TextAboutMe = () => {
       <div>
         <p className="text-lg">Hey, I'm</p>
         <br />
-        <h1
-          className="font-poppins text-6xl md:text-7xl"
-          style={{
-            backgroundClip: "text",
-            backgroundImage:
-              "linear-gradient(to right, #E845A7, #FFD233, #DD5789)",
-            WebkitBackgroundClip: "text",
-            color: "transparent",
-          }}
-        >
-          Miriam Nava
+        <h1>
+          <span className="font-poppins text-8xl md:text-7xl bg-gradient-pink-yellow text-transparent bg-clip-text">
+            Miriam Nava
+          </span>
         </h1>
       </div>
       <br />
       <br />
-      <div className="mb-20">
+      <div className="mb-20 md:my-1 sm:my-1">
         {aboutMeData.map(({ aboutme }, index) => (
           <p key={index} className="text-lg">
             {aboutme}

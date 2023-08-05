@@ -4,12 +4,12 @@ routes.push({
   text: "About me",
 });
 routes.push({
-  to: "/skills",
-  text: "Skills",
-});
-routes.push({
   to: "/experience",
   text: "Experience",
+});
+routes.push({
+  to: "/skills",
+  text: "Skills",
 });
 routes.push({
   to: "/projects",
