@@ -1,7 +1,7 @@
 # Miriam's Portafolio ♥︎
 
 ## Welcome!
-Welcome to my portafolio.
+Welcome my portafolio.
 
 [portafolio](https://raw.githubusercontent.com/MiriamNM/portafolio-miriam-nava/5360fb31f32a42de0d4deb59ac382eaec9785689/src/assets/portafolio.png)
 
