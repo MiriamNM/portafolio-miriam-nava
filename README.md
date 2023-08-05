@@ -12,8 +12,8 @@ Welcome my portafolio.
 - Tailwind.
 
 - Instructions:
-Fork my repository.
-Register your repository in git and download the repository locally by cloning it.
-In your console, install npm.
-In your console put the command npm start and open the location in [localHost:3000] (http://localhost:3000/).
+1. Fork my repository.
+2. Register your repository in git and download the repository locally by cloning it.
+3. In your console, install npm.
+4. In your console put the command npm start and open the location in [localHost:3000] (http://localhost:3000/).
 **When making the inscriptions, you should be able to see the page that I show below.
