@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portafolio-miriam-nava/static/css/main.a65148bd.css",
-    "main.js": "/portafolio-miriam-nava/static/js/main.1788cd3c.js",
+    "main.css": "/portafolio-miriam-nava/static/css/main.5ae87ee6.css",
+    "main.js": "/portafolio-miriam-nava/static/js/main.28eb897f.js",
     "static/js/787.5bed713a.chunk.js": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js",
     "static/media/minutos.jpg": "/portafolio-miriam-nava/static/media/minutos.9cb22aa29aa2ece5476d.jpg",
     "static/media/Profile.png": "/portafolio-miriam-nava/static/media/Profile.a6e800d360e161ec8ca6.png",
     "static/media/BurgerQueen.png": "/portafolio-miriam-nava/static/media/BurgerQueen.9922f1eb952c651d3b67.png",
     "static/media/path.png": "/portafolio-miriam-nava/static/media/path.39be1f0e8321e6e81d2d.png",
     "index.html": "/portafolio-miriam-nava/index.html",
-    "main.a65148bd.css.map": "/portafolio-miriam-nava/static/css/main.a65148bd.css.map",
-    "main.1788cd3c.js.map": "/portafolio-miriam-nava/static/js/main.1788cd3c.js.map",
+    "main.5ae87ee6.css.map": "/portafolio-miriam-nava/static/css/main.5ae87ee6.css.map",
+    "main.28eb897f.js.map": "/portafolio-miriam-nava/static/js/main.28eb897f.js.map",
     "787.5bed713a.chunk.js.map": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a65148bd.css",
-    "static/js/main.1788cd3c.js"
+    "static/css/main.5ae87ee6.css",
+    "static/js/main.28eb897f.js"
   ]
 }
