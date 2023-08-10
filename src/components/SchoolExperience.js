@@ -11,7 +11,7 @@ const SchoolExperience = () => {
             <div key={school}>
               <p className="text-base">
                 {name} <span className="text-gray">{school}</span>{" "}
-                <span className="text-lila">{date}</span>
+                <span className="text-pink-1">{date}</span>
               </p>
             </div>
           ))}
