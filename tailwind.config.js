@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./public/*.html"],
   theme: {
     extend: {
+      backgroundColor: {
+        footer: "rgba(251, 242, 177, 0.49)",
+      },
       backgroundImage: (theme) => ({
         "gradient-pink-yellow":
           "linear-gradient(90deg, rgba(232,69,167,1) 5%, rgba(255,210,51,1) 53%, rgba(221,87,137,1) 100%)",
@@ -35,7 +38,6 @@ module.exports = {
       yellow: {
         1: "#FFD233",
         2: "#FFD233",
-        3: "#FBF2B1",
       },
       blue: {
         1: "#5990EE",

@@ -5,7 +5,7 @@ const TextAboutMe = () => {
   return (
     <>
       <div>
-        <p className="text-lg">Hey, I'm</p>
+        <p className="text-lg w-max">Hey, I'm</p>
         <br />
         <h1>
           <span className="font-poppins text-8xl md:text-7xl bg-gradient-pink-yellow text-transparent bg-clip-text">

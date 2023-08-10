@@ -5,12 +5,12 @@ import github from "../assets/GitHub.png";
 
 const CardProjects = () => {
   return (
-    <div className="pt-5 grid gap-4 grid-cols-3 sm:grid-cols-1 md:grid-cols-1">
+    <div className="pt-5 grid gap-20 sm:gap-15 md:gap-15 grid-cols-3 sm:grid-cols-1 md:grid-cols-1">
       {projectsData.map(({ id, title, url, stack, image }) => (
         <Card
           key={id}
           hoverable
-          style={{ width: 400 }}
+          style={{ width: " 100%" }}
           cover={
             <img
               src={image}
