@@ -4,7 +4,7 @@ import TextAboutMe from "./TextAboutMe";
 
 const AboutMe = () => {
   return (
-    <div className="px-40 mx-0 py-30 my-0 sm:px-10 sm:py-2 md:px-10 md:py-2 text-dark">
+    <div className="px-40 mx-0 pt-20 mb-20 sm:px-10 sm:py-10 md:px-10 md:py-10 text-dark">
       <TextAboutMe />
       <ButtonsAboutMe />
     </div>
