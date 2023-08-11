@@ -3,14 +3,14 @@ import { SkillsImagesData } from "../data/SkillsImagesData";
 
 const ButtonsSkills = () => {
   return (
-    <div class="flex w-full px-5">
-      <ul class="mt-10 font-medium grid grid-cols-8 gap-2 md:grid-cols-2 sm:grid-cols-2">
+    <div className="flex w-full px-5">
+      <ul className="mt-10 font-medium grid grid-cols-8 gap-2 md:grid-cols-2 sm:grid-cols-2">
         {SkillsImagesData.map((image) => (
           <li key={image.text} className="flex flex-wrap justify-center">
-            <div className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-pink-yellow border-1">
+            <div className="w-full pt-0.5 pb-0.5 px-0.5 m-0 rounded-lg border-2 bg-gradient-pink-yellow border-none">
               <span className="flex flex-row justify-center text-dark px-5 py-2 font-semibold bg-white rounded">
-                <img src={image.img} alt={image.title} class="pt-1 px-2" />
-                <p class="pt-1">{image.title}</p>
+                <img src={image.img} alt={image.title} className="pt-1 px-1" />
+                <p className="pt-2">{image.title}</p>
               </span>
             </div>
           </li>
