@@ -56,10 +56,6 @@ SkillsImagesData.push({
   img: github,
 });
 SkillsImagesData.push({
-  title: "Firebase",
-  img: Firebase,
-});
-SkillsImagesData.push({
   title: "Python",
   img: Python,
 });

@@ -18,6 +18,7 @@ const CardProjects = () => {
               className="object-contain h-48 w-full rounded-lg"
             />
           }
+          className="hover:bg-footer"
         >
           <div className="flex justify-between items-center">
             <h3>{title}</h3>

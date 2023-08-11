@@ -9,6 +9,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "gradient-pink-yellow":
           "linear-gradient(90deg, rgba(232,69,167,1) 5%, rgba(255,210,51,1) 53%, rgba(221,87,137,1) 100%)",
+        "gradient-wine-purple":
+          "linear-gradient(90deg, rgba(210,64,116,1) 5%, rgba(101,24,180,1) 100%)",
       }),
       backgroundClip: {
         text: "text",
