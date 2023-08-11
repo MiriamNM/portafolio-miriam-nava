@@ -8,9 +8,7 @@ const ButtonsAboutMe = () => {
       <ul className="mt-10 font-medium grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-1 sm:mt-5 md:mt-5">
         {AboutMeButtons.map((button) => (
           <li key={button.text} className="flex">
-            <button
-              className={`w-full py-0.5 px-0.5 m-0 rounded-lg ${button.gradient}`}
-            >
+            <button className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-pink-yellow hover:bg-gradient-wine-purple active:bg-gradient-wine-purple">
               <NavLink
                 to={button.url}
                 className="flex flex-row justify-center text-dark px-5 py-2 font-semibold bg-white rounded"
