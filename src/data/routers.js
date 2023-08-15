@@ -1,23 +1,18 @@
-import React from "react";
-import AboutMe from "../components/AboutMe";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects";
-import Skills from "../components/Skills";
 const routes = [];
 routes.push({
-  to: <AboutMe />,
+  to: "#about-me",
   text: "About me",
 });
 routes.push({
-  to: <Experience />,
+  to: "#experience",
   text: "Experience",
 });
 routes.push({
-  to: <Projects />,
+  to: "#skills",
   text: "Skills",
 });
 routes.push({
-  to: <Skills />,
+  to: "#projects",
   text: "Projects",
 });
 
