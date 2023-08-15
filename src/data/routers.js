@@ -1,18 +1,18 @@
 const routes = [];
 routes.push({
-  to: "/",
+  to: "#about-me",
   text: "About me",
 });
 routes.push({
-  to: "/experience",
+  to: "#experience",
   text: "Experience",
 });
 routes.push({
-  to: "/skills",
+  to: "#skills",
   text: "Skills",
 });
 routes.push({
-  to: "/projects",
+  to: "#projects",
   text: "Projects",
 });
 

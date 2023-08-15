@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import AboutMeButtons from "../data/AboutMeButtons";
 
 const ButtonsAboutMe = () => {
@@ -9,13 +8,13 @@ const ButtonsAboutMe = () => {
         {AboutMeButtons.map((button) => (
           <li key={button.text} className="flex">
             <button className="w-full py-0.5 px-0.5 m-0 rounded-lg bg-gradient-pink-yellow hover:bg-gradient-wine-purple active:bg-gradient-wine-purple">
-              <NavLink
-                to={button.url}
+              <a
+                href={button.url}
                 className="flex flex-row justify-center text-dark px-5 py-2 font-semibold bg-white rounded"
               >
                 <img src={button.img} className="pb-1 pr-2" alt={button.text} />
                 {button.text}
-              </NavLink>
+              </a>
             </button>
           </li>
         ))}
