@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-miriam-nava/static/css/main.ebee9941.css",
-    "main.js": "/portafolio-miriam-nava/static/js/main.d50470c3.js",
+    "main.js": "/portafolio-miriam-nava/static/js/main.1abd9235.js",
     "static/js/787.5bed713a.chunk.js": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js",
     "static/media/minutos.jpg": "/portafolio-miriam-nava/static/media/minutos.9cb22aa29aa2ece5476d.jpg",
     "static/media/llevele.png": "/portafolio-miriam-nava/static/media/llevele.f86d899a44abe9edf297.png",
@@ -10,11 +10,11 @@
     "static/media/path.png": "/portafolio-miriam-nava/static/media/path.39be1f0e8321e6e81d2d.png",
     "index.html": "/portafolio-miriam-nava/index.html",
     "main.ebee9941.css.map": "/portafolio-miriam-nava/static/css/main.ebee9941.css.map",
-    "main.d50470c3.js.map": "/portafolio-miriam-nava/static/js/main.d50470c3.js.map",
+    "main.1abd9235.js.map": "/portafolio-miriam-nava/static/js/main.1abd9235.js.map",
     "787.5bed713a.chunk.js.map": "/portafolio-miriam-nava/static/js/787.5bed713a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebee9941.css",
-    "static/js/main.d50470c3.js"
+    "static/js/main.1abd9235.js"
   ]
 }
