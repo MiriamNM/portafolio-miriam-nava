@@ -4,19 +4,26 @@ import BurgerQueen from "../assets/BurgerQueen.png";
 import minutos from "../assets/minutos.jpg";
 import pathMDLinks from "../assets/path.png";
 import llevele from "../assets/llevele.png";
+import Banqueate from "../assets/banqueate.png";
 
 const projectsData = [];
-projectsData.push({
-  title: "Miriam´s profile",
-  stack: "React, tailwind, Ant Desing",
-  image: Profile,
-  url: "https://github.com/MiriamNM/portafolio-miriam-nava/tree/main",
-});
 projectsData.push({
   title: "Llevele llevele app",
   stack: "Node, Express, Postgres, Sequelize, Docker, React, Tailwind",
   image: llevele,
   url: "https://github.com/MiriamNM/llevele-llevele-app",
+});
+projectsData.push({
+  title: "Banqueate",
+  stack: "Next.js, React, Tailwind, Docker",
+  image: Banqueate,
+  url: "https://github.com/MiriamNM/banqueate",
+});
+projectsData.push({
+  title: "Miriam´s profile",
+  stack: "React, tailwind, Ant Desing",
+  image: Profile,
+  url: "https://github.com/MiriamNM/portafolio-miriam-nava/tree/main",
 });
 projectsData.push({
   title: "Technical test Cuenca, Eight-queens-puzzle",
